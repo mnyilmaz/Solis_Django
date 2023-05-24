@@ -1,0 +1,20 @@
+{% extends 'main.html' %} <!-- This will get the attributes from main.html and these are django template tags -->
+
+{% block content %} <!-- From now on home.html will include its own code -->
+
+<h3>Home Template</h3>
+
+<div>
+	<div>
+		{% for room in rooms %}
+			<div>
+				<h5>{{room.id}} -- <a href="/room/{{room.id}}">{{room.name}}</a></h5> <!-- Room names are now clickable -->
+								   <!-- a href="{% url 'room' room.id %}" -->
+			</div>
+		{% endfor %}
+	</div>
+</div>
+
+{% endblock %}
+
+
