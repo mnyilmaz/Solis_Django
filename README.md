@@ -3,7 +3,7 @@ project in a safer environment:
 
 ### Virtual Environment:
 
-`python -m venv myenv`
+# `python -m venv myenv`
 
 `source myenv/bin/activate`
 
