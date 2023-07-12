@@ -1,8 +1,9 @@
 Before working on a Django project please follow the required steps in order to work with your
 project in a safer environment:
 
-1) Virtual Environment:
->> python -m venv myenv
+### Virtual Environment:
+
+`python -m venv myenv`
 
 `source myenv/bin/activate`
 
