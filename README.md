@@ -5,6 +5,7 @@ project in a safer environment:
 >> python -m venv myenv
 
 `source myenv/bin/activate`
+
 `python3 -m ensurepip --upgrade --default-pip`
 
 `pip install django==<version> (3.2.13)`
